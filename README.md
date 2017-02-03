@@ -7,7 +7,7 @@ The first Z80 emulation library for Arduino, bringing bad the old Z80
 Studying microprocessors for a semester project, I had to write an emulator, and I chose Z80 to be my study case. my project had to be in arduino, so the emulator itself must run on arduino, I searched the internet and no working project or library where found for Z80 to emulate it on arduino, I decided to write my own library and emulator system and revive the Z80 through Arduino, it was a great processor for hobbyists and students and very good to study computer architeture on it. 
 
 # Zilog Z80 
-The Z80 microprocessor is an 8 bit CPU with a 16 bit address bus.
+The Z80 microprocessor is an 8 bit CPU with a 16 bit address bus.<br/>
 It has a language of 252 root instructions and an additional 308
 instructions.<br/>
 The Z80 was modeled after the 8080 and contains the 78 opcodes of
