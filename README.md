@@ -36,8 +36,8 @@ Step 1:
     EXT_FD, FD_LD_A_imm, 0x00,
     EXT_DD, DD_LD_B_imm, 0x09,
     EXT_DD, DD_LD_C_imm, 0x03,
-    XOR_A_B, 0xFF,
-    XOR_A_C, 0xFF,
+    XOR_A_B, 
+    XOR_A_C, 
     XOR_A_imm, 0xFF,
     NOP
     
