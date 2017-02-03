@@ -1,6 +1,6 @@
 # ArduZ80 
 
-The first Z80 emulation library for Arduino, bringing bad the old Z80
+The first Z80 emulation library for Arduino, bringing bad the old Z80.
 
 # Introduction 
 
@@ -18,7 +18,7 @@ In addition to the general registers, a stack-pointer, program-counter, and two
 index (memory pointers) registers are provided.<br/>
 
 # Features 
-
+- Interpretation-Based.
 - Written and optimized for Arduino.<br/>
 - Tested on Arduino Nano, Uno, Mega.<br/>
 - AlU, Buses, Registers, Control Unit emulated.<br/>
