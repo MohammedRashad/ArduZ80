@@ -13,8 +13,8 @@ instructions.<br/>
 The Z80 was modeled after the 8080 and contains the 78 opcodes of
 8080 opcodes as a subset to it's language.<br/>
 Programming features include an accumulator and six eight bit
-registers that can be paired as Three 16 bit registers. In addition to
-the general registers, a stack-pointer, program-counter, and two
+registers that can be paired as Three 16 bit registers.<br/>
+In addition to the general registers, a stack-pointer, program-counter, and two
 index (memory pointers) registers are provided.<br/>
 
 # Features 
@@ -48,7 +48,7 @@ Step 2 :
     //Copy the program to RAM 
     for (int i = 0; i < 30; i++) {
 
-    cpu.ram_[i] = t[i];
+        cpu.ram_[i] = t[i];
    
     }
 
@@ -61,15 +61,9 @@ Step 4 (Optional) :
 
     //Implement write_io and read_io 
     
-    void ArduZ80::write_io(uint16_t addr, uint8_t val){
+    void ArduZ80::write_io(uint16_t addr, uint8_t val){ }
 
-    }
-
-    uint8_t ArduZ80::read_io(uint16_t addr){
-
-    return data;
-    
-    }
+    uint8_t ArduZ80::read_io(uint16_t addr){ return data; }
     
     
 # Credits
