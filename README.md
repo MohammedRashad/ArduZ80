@@ -21,7 +21,7 @@ index (memory pointers) registers are provided.<br/>
 - Interpretation-Based.
 - Written and optimized for Arduino.<br/>
 - Tested on Arduino Nano, Uno, Mega.<br/>
-- AlU, Buses, Registers, Control Unit emulated.<br/>
+- ALU, Buses, Registers, Control Unit emulated.<br/>
 - Emulates 260 Instructions (177 Basic Instructions, 83 Extended Instructions).<br/>
 - Implementation of IN and OUT instruction left for developer to customize his system.<br/>
 - built with customization and extensibility in mind, adding a new instruction takes 3 lines only.<br/>
