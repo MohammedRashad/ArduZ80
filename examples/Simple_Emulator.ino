@@ -3,7 +3,7 @@
  *
  * This sketch runs a program that multiply 2 numbers togther
  * and XORs the result with 255
- * 
+ *  
  * Also implements the write_io & read_io functions
  *
  */
