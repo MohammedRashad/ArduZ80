@@ -1,6 +1,6 @@
 # ArduZ80 
 
-The first Z80 emulation library for Arduino, bringing bad the old Z80.
+The first Z80 emulation library for Arduino, bringing back the old Z80 to life.
 
 # Introduction 
 
