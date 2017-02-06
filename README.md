@@ -2,6 +2,8 @@
 
 The first Z80 emulation library for Arduino, bringing back the old Z80 to life.
 
+**Now Available on the Arduino LibraryManager & [Arduino Playground](http://playground.arduino.cc/Code/ArduZ80) **
+
 # Introduction 
 
 Studying microprocessors for a semester project, I had to write an emulator, and I chose Z80 to be my study case. my project had to be in arduino, so the emulator itself must run on arduino, I searched the internet and no working project or library where found for Z80 to emulate it on arduino, I decided to write my own library and emulator system and revive the Z80 through Arduino, it was a great processor for hobbyists and students and very good to study computer architeture on it. 
