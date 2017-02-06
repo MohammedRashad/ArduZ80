@@ -2,7 +2,7 @@
 
 The first Z80 emulation library for Arduino, bringing back the old Z80 to life.
 
-**Now Available on the Arduino LibraryManager & [Arduino Playground](http://playground.arduino.cc/Code/ArduZ80) **
+**Now Available on the Arduino LibraryManager & [Arduino Playground](http://playground.arduino.cc/Code/ArduZ80)**
 
 # Introduction 
 
