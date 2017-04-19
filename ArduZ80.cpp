@@ -407,6 +407,7 @@ void ArduZ80::dump_regs()
 void ArduZ80::step() {
   uint8_t tmp;
   uint16_t tmp16;
+  String cerr = "Error :\n";
 
   uint8_t code;
   switch (code = next()) {
@@ -620,7 +621,7 @@ void ArduZ80::step() {
 
         default:
       	  Serial.print(cerr);
-          Serial.print("unknown opcode: 0x")
+          Serial.print("unknown opcode: 0x");
           Serial.print((String)code);
           break;
       }
@@ -633,7 +634,7 @@ void ArduZ80::step() {
 
         default:
       	  Serial.print(cerr);
-      	  Serial.print("unknown opcode: 0x")
+      	  Serial.print("unknown opcode: 0x");
       	  Serial.print((String)code);
           break;
       }
