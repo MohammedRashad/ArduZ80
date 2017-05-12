@@ -670,7 +670,7 @@ void ArduZ80::step() {
 
         default:
   	  Serial.print(cerr);
-          Serial.print("unknown opcode: 0x")
+          Serial.print("unknown opcode: 0x");
       	  Serial.print((String)code);
           break;
       }
@@ -679,7 +679,7 @@ void ArduZ80::step() {
 
     default:
       Serial.print(cerr);
-      Serial.print("unknown opcode: 0x")
+      Serial.print("unknown opcode: 0x");
       Serial.print((String)code);
       break;
   }
